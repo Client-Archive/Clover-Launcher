@@ -1,0 +1,26 @@
+#app {
+    background-color: #171717;
+    background: left top no-repeat url('../assets/background.svg');
+    color: white;
+}
+
+#account-selector img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 64px;
+    height: 64px;
+    float: left;
+}
+
+
+#account-selector button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    margin: 0px;
+    border: none;
+    background: none;
+    color: white;
+    background-color: #2F2F2F;
+    font-size: 16px;
+    float: left;
+}

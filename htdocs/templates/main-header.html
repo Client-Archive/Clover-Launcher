@@ -1,0 +1,19 @@
+<div class="navbar-div drag">
+    <img src="assets/logo.svg" draggable="false">
+    <div class="navbar-tabs">
+        <button class="navbar-button" id="main-home" onclick="changePage('main-home')">Home</button>
+        <button class="navbar-button" id="main-about" onclick="changePage('main-about')">About</button>
+        <button class="navbar-button" id="main-settings" onclick="changePage('main-settings')">Settings</button>
+  
+        <button class="navbar-button" onclick="changePage('login')" style="color: red;">Login</button>
+        <button class="navbar-button" onclick="changePage('account-selector')" style="color: red;">Account selector</button>
+        <button class="navbar-button"  onclick="changePage('main-home')" style="color: red;">Main home</button>
+    </div>
+
+    <div class="navbar-btn-div float-right">
+        <button class="no-drag action-btn" onclick="Exit();"><img src="assets/nav/close.svg" draggable="false"></button>
+        <button class="no-drag action-btn" onclick="Maximize();"><img src="assets/nav/max.svg" draggable="false"></button>
+        <button class="no-drag action-btn" onclick="Minimize();"><img src="assets/nav/min.svg" draggable="false"></button>
+    </div>
+  </div>
+</div>

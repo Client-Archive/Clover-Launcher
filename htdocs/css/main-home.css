@@ -1,0 +1,157 @@
+#app{
+    background: left top no-repeat url('../assets/background.png') #171717;
+    background-size: cover; 
+}
+
+#welcome-text{
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    font-size: 24px;
+}
+
+.launch-btn-div{
+    width: 35%;
+    margin: 0 auto;
+    height: auto;
+    z-index: -2;
+    border-radius: 8px;
+    overflow: hidden;
+    background-image: url('../assets/launcher-bg.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    box-shadow: 0 0 10px white;
+}
+
+
+
+.launch-btn{
+    width: calc(100% - 50px);
+    padding: 20px;
+    border: none;
+    margin: 0px;
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 8px;
+
+}
+
+.loading-btn{
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.error-btn{
+    background-color: rgba(121, 28, 0, 0.8);
+}
+
+.normal-btn{
+    background-color: rgba(0, 247, 92, 0.5);
+}
+
+.launch-btn p{
+    margin-left: 20%;
+}
+
+.launch-btn b{
+    font-size: 24px;
+    margin-left: 10px;
+}
+.list-btn{
+    width: 50px;
+    padding: 17.5px 10px;
+    border: none;
+    margin: 0px;
+    display: block;
+    clear: right;
+    font-size: 24px;
+    float: right;
+    color: white;
+    background: none;
+
+}
+.launch-options-div{
+    display: block;
+    width: calc(100% - 2px);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow: hidden;
+    border: 1px solid white;
+
+}
+
+.launch-options-div button{
+    width: 100%;
+    padding: 20px;
+    display: block;
+    background-color: rgba(27, 27, 27, 0.8);
+    border: none;
+    color: white;
+    text-align: left;
+}
+
+.launch-options-div button:hover{
+    background-color: rgba(27, 27, 27, 0.9);
+}
+
+
+
+
+
+
+#news-iframe{
+    width: 100%;
+    height: calc(100% - 120px);
+    overflow-y: hidden;
+    border-radius: 8px;
+}
+
+
+.server-list-div{
+    overflow-y: scroll;
+    height: calc(100% - 120px);
+}
+
+.server-item-div{
+    width: calc(100% - 20px);
+    height: 50px;
+    background-color: #1b1b1b;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: block;
+    border-radius: 8px;
+    color: white;
+}
+
+.server-item-div img{
+    height: 100%;
+    width: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+.server-item-div p{
+    float: left;
+    font-size: 16px;
+    margin: 0px;
+    line-height: 50px;
+}
+
+.server-item-div button{
+    height: 100%;
+    padding: 10px 15px;
+    float: right;
+    border: none;
+    background-color: #1b1b1b;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-align: center;
+}
+

@@ -1,0 +1,67 @@
+<script>
+    window.fadeOut = () => {
+        document.querySelector(".main-home").style.animation = "fade-out 500ms ease-out forwards";
+    }
+    window.fadeIn = () => {
+        document.querySelector(".main-home").style.animation = "fade-in 500ms ease-out forwards";
+    }
+</script>
+
+<div class="main-home">
+<h1 id="welcome-text">Welcome back <b id="username">MALETEPALTE</b></h1>
+<div class="launch-btn-div">
+    <button onclick="setLaunchbtn('error')" class="launch-btn">Launch Game</button>
+    <button class="list-btn error-btn" onclick="showHide()">&darr;</button>
+
+
+    <div class="launch-options-div" id="hide-show-options" style="display: none;">
+        <button>V1</button>
+        <button>V2</button>
+        <button>V3</button>
+        <button>V4</button>
+        <button>V5</button>
+    </div>
+</div>
+
+<div class="wrapper-content-div">
+<div class="item-div  float-left">
+    <h1>NEWS</h1>
+    <iframe id="news-iframe" scrolling="no" src="https://example.com" frameborder="0"></iframe>
+</div>
+
+
+<div class="item-div  float-right">
+    <h1>SERVERS</h1>
+    <div class="server-list-div">
+        <div class="server-item-div">
+            <img src="assets/server-placeholder.svg" alt="">
+            <p>Server Example</p>
+            <button>&#9654;</button>
+        </div>
+        <div class="server-item-div">
+            <img src="assets/server-placeholder.svg" alt="">
+            <p>Server Example</p>
+            <button>&#9654;</button>
+        </div>
+        <div class="server-item-div">
+            <img src="assets/server-placeholder.svg" alt="">
+            <p>Server Example</p>
+            <button>&#9654;</button>
+        </div>
+
+        <div class="server-item-div">
+            <img src="assets/server-placeholder.svg" alt="">
+            <p>Server Example</p>
+            <button>&#9654;</button>
+        </div>
+
+        <div class="server-item-div">
+            <img src="assets/server-placeholder.svg" alt="">
+            <p>Server Example</p>
+            <button>&#9654;</button>
+        </div>
+    </div>
+</div>
+
+</div>
+</div>

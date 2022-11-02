@@ -1,0 +1,17 @@
+{
+  "name": "astrus-game-launcher",
+  "version": "1.0.0",
+  "description": "Arcane is a dummy",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "mnDevs",
+  "license": "LicenseRef-LICENSE",
+  "dependencies": {
+    "appdata-path": "^1.0.0",
+    "electron": "^13.0.0",
+    "minecraft-auth": "^1.0.34",
+    "uuid": "^9.0.0"
+  }
+}

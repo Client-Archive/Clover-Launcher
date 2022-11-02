@@ -1,0 +1,32 @@
+<div class="content-div" id="account-selector">
+    <h1>Select account</h1>
+    <p>Choose what account you want to play on.</p>
+    <div class="account-selector">
+        <img src="assets/placeholder-account.png" draggable="false">
+        <img src="assets/placeholder-account.png" draggable="false">
+        <img src="assets/placeholder-account.png" draggable="false">
+        <img src="assets/placeholder-account.png" draggable="false">
+        <img src="assets/placeholder-account.png" draggable="false">
+        <img src="assets/placeholder-account.png" draggable="false">
+        <img src="assets/placeholder-account.png" draggable="false">
+        <img src="assets/no-acc.png" draggable="false">
+        <img src="assets/no-acc.png" draggable="false">
+        <img src="assets/no-acc.png" draggable="false">
+    </div>
+    <br>
+    <button id="login-btn" onclick="changePage('login')">Add account</button>
+</div>
+
+<script>
+    window.fadeOut = () => {
+        document.querySelector(".content-div").style.animation = "fade-out 500ms ease-out forwards";
+    }
+
+    window.fadeIn = () => {
+        document.querySelector(".content-div").style.animation = "fade-in 500ms ease-out forwards";
+    }
+
+    // Fill accounts in selector
+
+        
+</script>

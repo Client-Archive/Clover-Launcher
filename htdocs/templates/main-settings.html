@@ -1,0 +1,35 @@
+
+<script>
+    window.fadeOut = () => {
+        document.querySelector(".main-settings").style.animation = "fade-out 500ms ease-out forwards";
+    }
+    window.fadeIn = () => {
+        document.querySelector(".main-settings").style.animation = "fade-in 500ms ease-out forwards";
+    }
+</script>
+
+<div class="main-settings">
+
+<h1 id="top-tab-text">Options</h1>
+
+<div class="wrapper-content-div">
+    <div class="options-div float-left">
+        <h1>After Launch</h1>
+        <button>Hide Launcher</button>
+        <button>Keep Launcher Open</button>
+    </div>
+
+    <div class="options-div float-right">
+        <h1>Memory options</h1>
+        <div class="ram-options">
+            <input type="range" name="" id="ram-slider" max="65536" min="512" placeholder="2.5" oninput="changeRam()">
+            <input id="used-ram" type="number" value="512">
+            <p>MB</p>
+        </div>
+
+        <h1>Branch</h1>
+        <input id="used-ram" type="number" value="1.0.0" class="float-right">
+        <button>Save Branch</button>
+    </div>
+</div>
+</div>

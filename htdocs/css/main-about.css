@@ -1,0 +1,8 @@
+#app{
+    background: left top no-repeat url('../assets/background.png') #171717;
+    background-size: cover; 
+}
+
+.about{
+    color: white;
+}

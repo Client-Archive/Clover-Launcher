@@ -1,0 +1,27 @@
+<div id="login-overlay">
+    <!-- Quality development, available at Sirius. In association with mnDevs & Jegox Dev. -->
+    <br/><br/><br/><br/><br/>
+
+
+    Logging in...<br/>
+    <span class="hang">You can also log in by clicking <a style="color: white;" onclick="AddAccountBrowser()" href="#">here.</a><br/></span>
+</div>
+
+<div class="content-div" id="login">
+    <h1>Add account</h1>
+    In order to play on Clover, you must<br/>authenticate with the Microsoft service.
+    <button id="login-btn" onclick="callMicrosoft()">
+        <img src="assets/micro-ico.svg" draggable="false">
+    </button>
+</div>
+
+<script>
+    window.fadeOut = () => {
+        document.querySelector(".content-div").style.animation = "fade-out 500ms ease-out forwards";
+    }
+
+    window.fadeIn = () => {
+        document.querySelector(".content-div").style.animation = "fade-in 500ms ease-out forwards";
+    }
+
+</script>

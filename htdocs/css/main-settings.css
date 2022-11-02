@@ -1,0 +1,77 @@
+#app{
+    background: left top no-repeat url('../assets/background.png') #171717;
+    background-size: cover; 
+}
+
+.options-div{
+    width: calc(50% - 50px);
+    padding: 25px;
+    background-color: #171717;
+    color: white;
+    height: 100%;
+    display: block;
+}
+
+.options-div button{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background: #171717;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.ram-options input{
+    width: 100%;
+}
+
+#used-ram{
+    background-color: #171717;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    width: calc(100% - 50px);
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.ram-options p{
+    margin: 0px;
+    line-height: 30px;
+}
+
+
+
+
+.ram-options input[type="range"]{
+
+   -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    margin-bottom: 15px;
+
+  }
+
+
+  
+
+  
+  .ram-options input[type="range"]::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+    border: none;
+  }
